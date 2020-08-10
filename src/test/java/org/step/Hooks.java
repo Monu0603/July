@@ -31,7 +31,7 @@ public class Hooks {
 			 byte[] screenshotAs = sc.getScreenshotAs(OutputType.BYTES);
 			Scenario.embed(screenshotAs,"img/png");
 		}	
-		driver.close();
+
 		}
 		
 		
